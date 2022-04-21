@@ -1,0 +1,55 @@
+
+.kv-badge {
+  width: 0.96rem;
+  height: 0.96rem;
+  // 变量测试
+  // color: $DEFAULT_BG_COLOR;
+  background: #f43000;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 133.32rem;
+  line-height: 1.6;
+  padding: 0 0.10667rem;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  border: 0.05333rem solid #fff;
+  font-size: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.kv-badge.long-badge {
+  width: 1.38667rem;
+}
+.kv-badge.isPoint {
+  background: url("https://img.dmallcdn.com/dshop/202103/8a667973-d0c8-483f-a8ff-1f781f380ddd")
+    no-repeat center center;
+  background-size: 100% 100%;
+  width: 0.48rem;
+  height: 0.48rem;
+  border: none;
+}
+.kv-badge .kv-badge-num {
+  font-size: 0.53333rem;
+  color: #fff;
+  display: inline-block;
+}
